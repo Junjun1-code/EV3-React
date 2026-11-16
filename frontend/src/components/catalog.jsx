@@ -1,12 +1,17 @@
-import Cards from './card'
+import Cards from './productCard'
 
-function Catalogo() {
+function Catalogo( {userType} ) {
     return (
-        <div className='page-shell main-page'>
-            {products.map((item) => (
-                <Cards key={item.product_id} product={item} />
-            ))}
-        </div>
+        <>        
+            <div>
+                {products.map((item) => (
+                    <Cards key={item.product_id} product={item} />
+                ))}
+            </div>
+            { userType === "marketing" && (
+                <Button variant="primary" href="/form">Agregar producto</Button>
+            )}
+        </>
     );
 }
 

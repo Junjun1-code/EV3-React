@@ -1,4 +1,4 @@
-import Cards from './card'
+import Cards from './productCard'
 
 function Carro() {
     return (

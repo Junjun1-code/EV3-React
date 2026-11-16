@@ -1,6 +1,14 @@
 function footer() {
     return (
-        <h1> Hola mundo. </h1>
+        <>
+            <h1 className="center"> Contactanos en </h1>
+            <div className="horizontal">
+                {/* Whatsapp */}
+                {/* Instagram */}
+                {/* Facebook */}
+                <p> Estos datos no son reales.</p>
+            </div>
+        </>
     );
 }
 

@@ -10,6 +10,7 @@ import Home from './pages/home.jsx'
 import Process from './pages/process_list.jsx'
 import Users from './pages/user_list.jsx'
 import Carro from './pages/cart.jsx'
+import Form from './pages/form.jsx'
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,7 +33,8 @@ function App() {
           <Route path="/catalog" element={<Catalog/>} />
           <Route path="/process" element={<Process/>} />
           <Route path="/user" element={<Users/>} />
-          <Route path="/carro" element={<Carro />} />
+          <Route path="/cart" element={<Carro />} />
+          <Route path="/form" element={<Form />} />
         </Routes>
       </BrowserRouter>
 
