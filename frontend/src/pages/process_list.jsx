@@ -1,4 +1,4 @@
-import List from '../components/processList.jsx'
+import List from '../components/ProcessList.jsx'
 
 function App(){
     return (

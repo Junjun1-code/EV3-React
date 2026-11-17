@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Nav() {
+function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -24,6 +24,7 @@ function Nav() {
                 Carro
               </NavDropdown.Item>
             {/* </NavDropdown> */}
+            <Nav.Link href="/login"> Log in </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -31,4 +32,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavBar;

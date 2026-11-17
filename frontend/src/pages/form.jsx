@@ -1,5 +1,5 @@
-import ProcessForm from '../components/processForm.jsx'
-import ProductForm from '../components/productForm.jsx'
+import ProcessForm from '../components/ProcessForm.jsx'
+import ProductForm from '../components/ProductForm.jsx'
 
 function App( {formType} ) {
     return (

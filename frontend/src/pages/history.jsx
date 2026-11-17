@@ -1,4 +1,4 @@
-import List from '../components/historyList.jsx'
+import List from '../components/HistoryList.jsx'
 
 function App(){
     return (

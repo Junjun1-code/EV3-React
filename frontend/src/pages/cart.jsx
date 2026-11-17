@@ -1,4 +1,4 @@
-import Carro from '../components/cart.jsx'
+import Carro from '../components/Cart.jsx'
 
 function App(){
     return (

@@ -1,4 +1,4 @@
-import Table from '../components/userTable.jsx'
+import Table from '../components/UserTable.jsx'
 
 function App(){
     return (

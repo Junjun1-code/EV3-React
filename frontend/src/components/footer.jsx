@@ -3,7 +3,7 @@ function footer() {
         <>
             <h1 className="center"> Contactanos en </h1>
             <div className="horizontal">
-                {/* Whatsapp */}
+                <la> https://wa.me/56911532224</la> {/* Whatsapp */}
                 {/* Instagram */}
                 {/* Facebook */}
                 <p> Estos datos no son reales.</p>

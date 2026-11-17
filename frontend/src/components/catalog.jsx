@@ -1,4 +1,4 @@
-import Cards from './productCard'
+import Cards from './ProductCard'
 
 function Catalogo( {userType} ) {
     return (

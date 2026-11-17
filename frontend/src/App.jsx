@@ -11,16 +11,19 @@ import Process from './pages/process_list.jsx'
 import Users from './pages/user_list.jsx'
 import Carro from './pages/cart.jsx'
 import Form from './pages/form.jsx'
+import { Auth } from './pages/auth';
+// import { Home } from './pages/home';
+import { Account } from './pages/account';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Componentes
-import Footer from "./components/footer.jsx"
-import Nav from "./components/navbar.jsx"
+import Footer from "./components/Footer.jsx"
+import Nav from "./components/Navbar.jsx"
 
 function App() {
-  const [Carro, setCarro] = useState( [[]] )
+  const [carro, setCarro] = useState( [[]] )
   
   return (
     <>
@@ -30,6 +33,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/auth/:pathname" element={<Auth />} />
+          <Route path="/account/:pathname" element={<Account />} />
           <Route path="/catalog" element={<Catalog/>} />
           <Route path="/process" element={<Process/>} />
           <Route path="/user" element={<Users/>} />

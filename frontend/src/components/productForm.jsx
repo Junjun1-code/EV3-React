@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function Form() {
+function ProductForm() {
     return (
         <Form>
             <Form.Group className="mb-3" controlId="formBasicName">
@@ -38,4 +38,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default ProductForm;

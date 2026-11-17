@@ -1,4 +1,4 @@
-import Catalog from '../components/catalog.jsx'
+import Catalog from '../components/Catalog.jsx'
 
 function App(){
     return (
