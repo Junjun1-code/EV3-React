@@ -23,7 +23,7 @@ function table() {
                         <td>{process.process_name}</td>
                         <td>{process.process_class}</td>
                         <td>{process.process_state}</td>
-                        {/* <Button onClick={() => handleSwap(process.process_id)} /> */} {/* Hacerlo con token */}
+                        {/* <Button onClick={() => handleSwap(process.process_id)} /> */} {/* Agregar a historial */}
                     </tr>
                 ))}
             </tbody>

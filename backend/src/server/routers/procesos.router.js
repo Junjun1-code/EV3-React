@@ -6,9 +6,9 @@ const router = Router()
 
 // Rutas para procesos (requiere autenticación)
 
-router.get('/', authMiddleware, procesosController.ProcessfindAll)
-router.get('/:id', authMiddleware, procesosController.ProcessfindById)
-router.put('/:id', authMiddleware, procesosController.ProcessupdateById)
-router.delete('/:id', authMiddleware, procesosController.ProcessdeleteById)
+router.get('/process', authMiddleware, procesosController.ProcessfindAll)
+router.get('/process/:id', authMiddleware, procesosController.ProcessfindById)
+router.put('/process/:id', authMiddleware, procesosController.ProcessupdateById)
+router.delete('/process/:id', authMiddleware, procesosController.ProcessdeleteById)
 
 module.exports = router
